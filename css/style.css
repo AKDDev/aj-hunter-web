@@ -6,4 +6,14 @@
   box-sizing: border-box;
 }
 
+html, body {
+  background: #fff;
+  font-size: 12pt;
+  line-height: 1.2rem;
+}
+
+h1, h2, h3, h4, p {
+  margin:0;
+  margin-bottom: 1rem;
+}
 
