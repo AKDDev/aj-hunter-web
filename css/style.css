@@ -1,4 +1,8 @@
-// Reset
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Sriracha&display=swap');
+
+
+/* Reset */
 
 *,
 *::before,
@@ -6,14 +10,97 @@
   box-sizing: border-box;
 }
 
+/* Defaults */
+
 html, body {
   background: #fff;
   font-size: 12pt;
   line-height: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  margin:0;
+  padding: 0;
 }
 
 h1, h2, h3, h4, p {
-  margin:0;
+  margin: 0;
   margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Sriracha',cursive;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+}
+
+/* Layout */
+section {
+  height: 500px;
+  padding: 1rem;
+}
+
+/* Look */
+
+header {
+  padding: 1rem;
+}
+
+section {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#latest {
+  background-image: url(../images/pen.jpg);
+}
+
+#wip {
+  background-image: url(../images/typewriter.jpg);
+}
+
+#blog {
+  background-image: url(../images/nyc.jpg);
+}
+
+#about {
+  background-image: url(../images/galaxy.jpg);
+}
+
+#nox {
+  background-image: url(../images/nox.jpg);
+}
+
+#mailing-list {
+  background-image: url(../images/letter.jpg);
+}
+
+#contact {
+  background-image: url(../images/phone.jpg);
+}
+
+footer {
+  font-size: .75rem;
+  text-align: center;
+}
+
+.photo-credit {
+  font-size: .75rem;
+  text-align: right;
 }
 
